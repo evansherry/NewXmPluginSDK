@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="shape_bottom_dialog_corner">6dp</dimen>
+
+    <dimen name="bottom_view_height">116dp</dimen>
+
+    <!--set dialog start-->
+    <dimen name="set_item_margin_left">20dp</dimen>
+    <dimen name="set_item_margin_right">20dp</dimen>
+    <dimen name="set_item_height">47dp</dimen>
+    <!-- set dialog end-->
+
+
+</resources>

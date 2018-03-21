@@ -60,6 +60,16 @@
         <item name="android:windowIsFloating">true</item>
     </style>
 
+
+    <style name="bottom_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoDisplay">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
     <style name="V5.Animation" />
 
     <style name="V5.Animation.Dialog">

@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildSdkVersion
 
     defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
         //需要配置为插件包名
         applicationId "com.xiaomi.demo"
-        minSdkVersion 14
-        targetSdkVersion 19
         //每次发布版本versionCode必须加1
         versionCode 1
         versionName "1.0"
@@ -45,6 +45,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':dialog')
 }
 
 

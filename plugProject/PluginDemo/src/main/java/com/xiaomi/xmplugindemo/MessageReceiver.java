@@ -31,7 +31,7 @@ public class MessageReceiver implements IXmPluginMessageReceiver {
                             deviceStat.did, BlueDemoMainActivity.class);
                 } else {
                     XmPluginHostApi.instance().startActivity(context, xmPluginPackage, intent,
-                            deviceStat.did, MainActivity.class);
+                            deviceStat.did, TestDialogActivity.class);
                 }
                 return true;
             }

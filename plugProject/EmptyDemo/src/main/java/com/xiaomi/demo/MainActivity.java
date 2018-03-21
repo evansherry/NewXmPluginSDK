@@ -129,5 +129,6 @@ public class MainActivity extends XmPluginBaseActivity implements StateChangedLi
         refreshUI();
     }
 
+
 }
 

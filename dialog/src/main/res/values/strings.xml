@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dialog</string>
+    <string name="modify_timer_tips">确定放弃对本次定时的更改吗？</string>
+    <string name="give_up_modify">确定放弃</string>
+    <string name="cancel_set_timer">您还未设置定时</string>
+    <string name="are_you_sure_give_up_operate">确定放弃本次操作？</string>
+    <string name="ok">确定</string>
+
+    <drawable name="drawable_f2f2f2">#f2f2f2</drawable>
+    <drawable name="drawable_dfdfdf">#dfdfdf</drawable>
+</resources>
